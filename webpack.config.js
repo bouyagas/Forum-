@@ -25,7 +25,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'PBandJAMD',
+      title: 'Forum',
       xhtml: true,
       inject: false,
       template: require('html-webpack-template'),
