@@ -12,7 +12,7 @@
 
 #hidden {
   transition: width 1s;
-  background-color: #D4976A;
+  background-color: #fff;
   width: 0vw;
   height: 100%;
   display: flex;
@@ -22,7 +22,7 @@
 }
 
 #show {
-  background-color:  #D4976A;
+  background-color: #fff;
   width: 30vw;
   height: 100%;
   transition: width 1s;
@@ -33,7 +33,7 @@
 }
 
 #sidebarButton {
-  background-color: tomato;
+  background-color: rgb(33, 150, 243);
   height: 4vw;
   width: 10vw;
   opacity: .7;
