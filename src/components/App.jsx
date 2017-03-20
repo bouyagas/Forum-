@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from './Header/Header.jsx';
-import Footer from './Footer/Footer.jsx';
 import TopicContainer from './TopicContainer/TopicContainer.jsx';
 import CommentContainer from './CommentContainer/CommentContainer.jsx';
 import AsideLoginSignup from './AsideLoginSignup/AsideLoginSignup.jsx';
@@ -438,7 +437,7 @@ class App extends Component {
         <div id="main-container">
           {this.renderComponent(this.state.currentPage)}
         </div>
-        <Footer />
+
       </div>
     );
   }

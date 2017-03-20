@@ -1,7 +1,7 @@
 import React from 'react';
 import '../normalize.css';
 import './Header.css';
-import banana from './banana.gif';
+
 
 const Header = props => (
   <div id="header-container">
