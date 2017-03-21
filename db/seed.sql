@@ -14,7 +14,9 @@ INSERT INTO topic (id, title, content, user_id) VALUES
   (7, 'Javascript', 'Top language?', 4),
   (8, 'Mongo DB', 'Thoughts, opinions, comments?', 2),
   (9, 'Be Like Arnold', 'Bodybuilding Everyday', 1),
-  (10, 'Why am I always tired?', 'How to not be tired.', 2);
+  (10, 'Why am I always tired?', 'How to not be tired.', 2),
+  (11, 'Be Like Arnold', 'Bodybuilding Everyday', 1),
+  (12, 'Why am I always tired?', 'How to not be tired.', 2);
 
 INSERT INTO comment (id, body, topic_id, user_id) VALUES
   (1, 'I definitely think it could happen. For all we know, our president could be an alien.', 1, 1),
